@@ -1,0 +1,50 @@
+C:\Users\dowpa\PycharmProjects\PythonProject\.venv311\Scripts\python.exe C:\Users\dowpa\PycharmProjects\PythonProject\main.py
+===== Naive Bayes =====
+Accuracy: 1.0
+F1 Score: 1.0
+
+===== Logistic Regression =====
+Accuracy: 0.5
+F1 Score: 0.4
+
+Confusion Matrix:
+[[1 3]
+ [0 2]]
+
+Sample Predictions:
+
+Text: Win big now with our limited-time bonus
+Prediction: non_manipulative
+Explanation:
+- urgency cue detected: now
+- urgency cue detected: limited
+- reward exaggeration detected: win big
+- no responsibility cue detected
+
+Text: All bets are subject to terms and conditions
+Prediction: non_manipulative
+Explanation:
+- neutral or informational language
+
+Text: Explore today's cricket odds
+Prediction: non_manipulative
+Explanation:
+- urgency cue detected: today
+- no responsibility cue detected
+
+Text: Double your winnings instantly today
+Prediction: non_manipulative
+Explanation:
+- urgency cue detected: today
+- urgency cue detected: instantly
+- reward exaggeration detected: double your winnings
+- no responsibility cue detected
+
+Text: Hurry up! Offer ends soon
+Prediction: non_manipulative
+Explanation:
+- urgency cue detected: hurry
+- no responsibility cue detected
+
+
+Process finished with exit code 0
